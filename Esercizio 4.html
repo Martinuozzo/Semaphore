@@ -15,6 +15,8 @@
 		body{
 			background-color: White;
 			font-family: "Helvetica Neue", sans-serif;
+			margin: 0;
+			padding:0;
 		}
 
 		main{
@@ -27,8 +29,8 @@
 			/*width: 100%;*/
 			font-size: 18pt;
 			line-height: 21pt;
-
 		}
+		
 		h1 {
 			
 			margin-top: 64px;
@@ -70,6 +72,16 @@
 
 		}
 
+		a{
+			color: black;
+		}
+
+		a:hover{
+			color: Gold;
+			transition: 0.3s;
+			
+		}
+
 
 		.video{
 		margin: 0 auto;
@@ -93,7 +105,7 @@
 			grid-column-gap: 3em;
 			grid-row-gap: 1em;
 			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-			margin-bottom: 3em;
+			/*margin-bottom: 3em;*/
 			margin-left: 8%;
 			margin-right: 8%;
 			max-width: 1280px;
@@ -121,10 +133,15 @@
 		}
 
 		.cella{
-			outline: 1px red solid;
+			/*outline: 1px red solid;*/
 			min-height: 10em;
 			margin-bottom: 3em;
 			
+		}
+
+		.cellafooter{
+			outline: 1px red solid;
+			min-height: 10em;
 		}
 
 		.cella img{
@@ -203,6 +220,11 @@
 		margin-top: 1em;
 		 padding-top: 3vh;
 		 margin-left: 8%;
+		}
+
+		.footer{
+			background-color: WhiteSmoke;
+			padding: 2em 3em; 
 		}
 
 
@@ -374,22 +396,24 @@
 			In Marina viene impiegato tuttora un telegrafo ottico costituito da un piccolo faro che può essere oscurato o meno agendo su una levetta. Si tratta di una forte lampada capace di produrre un fascio ben collimato, rinviato da uno specchio sferico o paraboloidico. Un sistema di lamelle orizzontali può essere manovrato con una levetta, come una tenda “alla veneziana”, e con ciò liberare o bloccare il fascio. Così è possibile inviare segnali Morse da una nave ad un’altra per mezzo di impulsi di luce. Un altro sistema impiega due bandierine impugnate da un marinaio che, assumendo diverse posizioni, codifica lettere e segnali standard. Altri tipi di bandiere sono usati nel Codice Internazionale Nautico. In fondo, sia pure a brevissima distanza, anche il codice gestuale dei sordi è una forma di comunicazione ottica; il singolo messaggio esprime spesso una parola, un concetto, un’intera frase. 
 		</p>
 	</div>	
+</div>
 
 
+</main>
 
 	
 
-
-	
-<div  class="cella ">
+<div class="footer">
+<div class="griglia">
+<div  class="cella">
 	<p class="colophon">
 		Link alla sitografia: <br>
 
-		<a href="https://www.divinamilano.it/il-telegrafo-ottico/">divinamilano.it</a> <br>
+		<a href="https://www.divinamilano.it/il-telegrafo-ottico/" title="Collegamento a divinamilano">divinamilano.it</a> <br>
 
- 		<a href="https://www.treccani.it/enciclopedia/telegrafo_%28Enciclopedia-Italiana%29/">Treccani.it</a> <br>
+ 		<a href="https://www.treccani.it/enciclopedia/telegrafo_%28Enciclopedia-Italiana%29/" title="Collegamento a Treccani">Treccani.it</a> <br>
 
-		<a href="http://www.funsci.it/files/Telegrottico.pdf">funsci.it</a>
+		<a href="http://www.funsci.it/files/Telegrottico.pdf" title="Collegamento a funsci">funsci.it</a>
 	</p>
 </div>
 <div class="cella">
@@ -417,9 +441,8 @@ Docenti: Andreas Gysin, Giovanni Profeta
 	</div>
 	
 </div>
-	
+</div>	
 
-</main>
 
 </body>
 
